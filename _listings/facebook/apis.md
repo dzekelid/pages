@@ -36,7 +36,7 @@ apis:
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/facebook/pages-platform-component-flow-service-config-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/facebook/pages-platform-component-flow-service-config-id-delete.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
