@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Homepages Listings Active
-  description: Finds all FeaturedListings that point to active Listings
+- name: Etsy Get Homepages Listings Featured Listing
+  description: Retrieves a FeaturedListing by id.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-listings-active-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-listings-featured-listing-id-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
