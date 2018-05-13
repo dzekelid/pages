@@ -52,15 +52,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-listings-featured-listing-id-get.md
-- name: Etsy Get Homepages Listings Featured Listing Picker
-  description: Retrieves a set of FeaturedListingPicker objects associated to a FeaturedListing.
+- name: Etsy Get Homepages Listings Featured Listing Listing
+  description: Retrieves a set of Listing objects associated to a FeaturedListing.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-listings-featured-listing-id-picker-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-listings-featured-listing-id-listing-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
