@@ -21,15 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post Location Pages
-  description: Creates a Favorites page in Square Register.
+- name: Square Connect API Get Location Pages
+  description: Lists all of a location's Favorites pages in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/location-id-pages-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/location-id-pages-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/location-id-pages-get-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
