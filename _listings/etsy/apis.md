@@ -43,16 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Homepages Pickers Featured Listing Picker Listings Active
-  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
-    in scope active.
+- name: Etsy Get Homepages Listings
+  description: Finds all FeaturedListings regardless of Listing state
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-pickers-featured-listing-picker-id-listings-active-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/etsy/homepages-listings-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
