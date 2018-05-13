@@ -21,15 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Put Location Pages Page
-  description: Modifies the details of a Favorites page in Square Register.
+- name: Square Connect API Delete Location Pages Page
+  description: Deletes an existing Favorites page and all of its cells.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/location-id-pages-page-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/location-id-pages-page-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/location-id-pages-page-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
