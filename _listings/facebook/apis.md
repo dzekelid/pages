@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/facebook/pages-platform-component-flow-service-config-id-delete.md
-- name: Facebook Get User Assigned Pages
-  description: User Assigned Pages
+- name: Facebook Get User S For Pages
+  description: User Ids For Pages
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Pages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/facebook/#123;user-id-#125;-assigned-pages-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/facebook/#123;user-id-#125;-ids-for-pages-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
