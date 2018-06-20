@@ -8,7 +8,7 @@ info:
     in scope active.
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -22,6 +22,13 @@ paths:
       description: Finds all FeaturedListingPicker in scope active.
       operationId: getHomepagesPickers
       x-api-path-slug: homepagespickers-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -34,6 +41,9 @@ paths:
       description: Retrieves a FeaturedListingPicker by id.
       operationId: getHomepagesPickersFeaturedListingPicker
       x-api-path-slug: homepagespickersfeatured-listing-picker-id-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
       responses:
         200:
           description: OK
@@ -49,6 +59,15 @@ paths:
       description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
       operationId: getHomepagesPickersFeaturedListingPickerFeatured
       x-api-path-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -65,6 +84,15 @@ paths:
       description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
       operationId: getHomepagesPickersFeaturedListingPickerListings
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistings-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -82,6 +110,15 @@ paths:
         in scope active.
       operationId: getHomepagesPickersFeaturedListingPickerListingsActive
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK

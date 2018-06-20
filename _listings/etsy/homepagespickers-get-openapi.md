@@ -7,7 +7,7 @@ info:
   description: Finds all FeaturedListingPicker in scope active.
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -21,6 +21,13 @@ paths:
       description: Finds all FeaturedListingPicker in scope active.
       operationId: getHomepagesPickers
       x-api-path-slug: homepagespickers-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
