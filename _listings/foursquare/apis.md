@@ -7,65 +7,63 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Pages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Foursquare Get Pages Search
-  x-api-slug: foursquare
+- name: Foursquare - Get Pages Search
+  x-api-slug: pagessearch-get
   description: /pages/{PAGE_ID}
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///pages/search
-  tags: Pages,Search
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/pagessearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/pagessearch-get-openapi.md
-- name: Foursquare Get Pages
-  x-api-slug: foursquare
+- name: Foursquare - Get Pages
+  x-api-slug: pagespage-id-get
   description: /events/search
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///pages/{PAGE_ID}
-  tags: Pages
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/pagespage-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/pagespage-id-get-openapi.md
-- name: Foursquare Get Pages Venues
-  x-api-slug: foursquare
+- name: Foursquare - Get Pages Venues
+  x-api-slug: pagespage-idvenues-get
   description: /pages/search
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///pages/{PAGE_ID}/venues
-  tags: Pages,Venues
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/pagespage-idvenues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/pagespage-idvenues-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: foursquare makes the real world easier to use. We build tools that
-    help you keep up with friends, discover whats nearby, save money and unlock deals.
-    Whether youre setting off on a trip around the world, coordinating a night out
-    with friends, or trying to pick out the best dish at your local restaurant, foursquare
-    is the perfect companion. The foursquare API gives you access to all of the data
-    used by the foursquare mobile applications, and, in some cases, even more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
-  humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2/
-  tags: Pages
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/foursquare/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/foursquare.json
+- type: x-api-gallery
+  url: http://fluxiom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://foursquare.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/foursquare/apidescription?format=internal&ver=1393644831000
 - type: x-application-management

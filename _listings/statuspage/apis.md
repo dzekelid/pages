@@ -7,47 +7,42 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-stat
 x-kinRank: "8"
 x-alexaRank: "34303"
 tags: Pages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/statuspage/apis.md
 specificationVersion: "0.14"
 apis:
-- name: StatusPage.io Get your page profile
-  x-api-slug: statuspage-io
+- name: StatusPage.io - Get your page profile
+  x-api-slug: pagespage-id-json-get
   description: Get your page profile
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
   humanURL: https://www.statuspage.io/
-  baseURL: https://///pages/[page_id].json
-  tags: Pages
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/statuspage/pagespage-id-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/statuspage/pagespage-id-json-get-openapi.md
-- name: StatusPage.io Update your page profile
-  x-api-slug: statuspage-io
+- name: StatusPage.io - Update your page profile
+  x-api-slug: pagespage-id-json-patch
   description: Update your page profile
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
   humanURL: https://www.statuspage.io/
-  baseURL: https://///pages/[page_id].json
-  tags: Pages
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/statuspage/pagespage-id-json-patch-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/statuspage/pagespage-id-json-patch-openapi.md
-- name: StatusPage.io
-  x-api-slug: statuspage-io
-  description: StatusPage.io is the best way for web infrastructure, developer API,
-    and SaaS companies to get set up with their very own status page in minutes
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
-  humanURL: https://www.statuspage.io/
-  baseURL: https:///
-  tags: Pages
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/statuspage/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://starred.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://statuspage.stack.network
 - type: x-authentication
   url: http://doers.statuspage.io/api/authentication/
 - type: x-blog

@@ -8,38 +8,32 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Pages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Lists all of a location's Favorites pages in Square Register.
-  x-api-slug: square-connect-api
+- name: Square Connect - Lists all of a location's Favorites pages in Square Register.
+  x-api-slug: v1location-idpages-get
   description: Lists all of a location's Favorites pages in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
   humanURL: http://square.com
-  baseURL: https://connect.squareup.com////v1/{location_id}/pages
-  tags: Lists,,Of,Locations,Favorites,Pages,In,Square,Register
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/v1location-idpages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/v1location-idpages-get-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: Square helps millions of sellers run their business- from secure credit
-    card processing to point of sale solutions. Get paid faster with Square and sign
-    up today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: Pages
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pages/master/_listings/square/openapi.md
 x-common:
 - type: x-website
   url: http://square.com
+- type: x-api-gallery
+  url: http://spreaker.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://square.stack.network
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase

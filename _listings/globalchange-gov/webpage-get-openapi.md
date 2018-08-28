@@ -15,29 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /report/{report_identifier}/webpage:
-    get:
-      summary: List webpages associated with a report.
-      description: List the webpages associated with a report, 20 per page.
-      operationId: list-the-webpages-associated-with-a-report-20-per-page
-      x-api-path-slug: reportreport-identifierwebpage-get
-      parameters:
-      - in: query
-        name: all
-        description: Set to 1 to get all of the webpages
-      - in: query
-        name: page
-        description: The page number (starting at 1)
-      - in: path
-        name: report_identifier
-        description: report_identifier description
-      responses:
-        200:
-          description: OK
-      tags:
-      - Webpages
-      - Associated
-      - Report
   /webpage:
     get:
       summary: List web pages.
